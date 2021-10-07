@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+} 
+html,body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* container*/
+.container{ 
+background-color: white;
+width: 800px;;
+display: flex;
+flex-direction: column;
+}
+/*header*/
+.header{
+    display: flex;
+    position: relative;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px grey;   
+}
+/*üst row1*/
+.row1{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(96, 142, 160);
+}
+/*bacground circle*/
+.circle{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+    opacity: 0.2;
+    
+}
+.c1{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(210, 228, 235);
+    top: 40px;
+    left: 230px;
+    position:absolute;
+    margin: center;
+    border-radius: 50%;
+    opacity: 6px;
+}
+.c2{
+    height: 70px;
+    width: 80px;
+    background-color: rgb(194, 211, 216);
+    top: 80px;
+    left: 280px;
+    position:absolute;
+    margin: right;
+    border-radius: 50%;
+}
+.c3{
+    height: 180px;
+    width: 200px;
+    background-color: rgb(218, 233, 238);
+    top: 20px;
+    left: 0px;
+    position:absolute;
+    margin:left;
+    border-radius: 50%;
+}
+/*row2*/
+.row2{
+    height:400px;
+    width: 400px;
+    background-color: white;
+}
+/*information box*/
+.section{
+background-color: rgb(243, 244, 245);
+width: 350px;
+height:200px ;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content:space-between;
+position: relative;
+border-radius: 3px;
+box-shadow: 0px 2px grey;
+bottom: 460px;
+left: 25px;
+
+}
+#round{
+  border: 1px solid #03BFCB;
+  border-radius: 50%;
+  padding: 4px;
+  position: absolute;
+  bottom: 130px;
+  left: 80px;
+}
+h1{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 30px;
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    left: 100px;
+}
+h4{
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 5px;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    left: 115px;
+
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    left: 8px;
+
+}
+
+/* social iconlar görünmüyor,yapamadım:(
+#social{
+    background-color: rgb(226, 221, 221);
+    position: absolute;
+    bottom: 65px;
+    left: 100px;
+}
+
+#social{
+    position: absolute;
+    bottom: 300px;
+}
+
+#social ul li a{
+    text-decoration: none;
+    color: rgba(232, 232, 231,1.000);
+}
+#social i{
+    padding: 13px 20px;
+    font-size: 12px;
+}
+/* seçiciler
+#fa-facebook-f:vertical;,#fa-twitter:vertical;,#fa-instagram:vertical;{
+    color: #4b4949;
+    font-size: 16px;
+}
+#social ul li{
+    
+    list-style: none;} */
+
+/*account settings kutusu*/
+.account{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+ background-color: rgb(251, 252, 253);
+width: 350px;
+height:200px ;
+position: absolute;
+border-radius: 3px;
+box-shadow: 0px 2px grey;
+top: 260px;
+    
+}
+
+#title{
+    font-size: 10px;
+    top: -15px;
+    left: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* iconlar görünmüyor */
+  li a:hover {
+    background-color: rgb(253, 249, 249);
+    color: rgb(54, 51, 51);
+  }
+  #fa-email:hover,#fa-key:hover,#fa-folder:hover,#fa-google:hover{
+    color: #444040;
+    font-size: 16px;
+  }
+/*footer*/
+  .footer{ 
+  display: flex;
+  position: relative;
+  background-color: white;
+  flex-direction:column;
+  box-shadow: 3px 3px 3px grey;   
+}
+.privecy{
+    height: 60px;
+    width: 400px;
+    background-color: rgb(253, 249, 249);
+    position: absolute;
+    top: -200px;
+    box-shadow:3px 3px 3px 2px grey;
+
+}
+
+h3{
+    top: -30px;
+    left: 10px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fa-search,.fa-document,.fa-user,.fa-message{
+color: grey;
+size: 20px;
+}
+  
